@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Hello WASM</title>
+    <style>
+      body { font-family: system-ui, Arial, sans-serif; padding: 24px; }
+      #app { font-size: 24px; font-weight: 600; }
+    </style>
+  </head>
+  <body>
+    <div id="app">Loading...</div>
+
+    <script type="module">
+  import init from "./pkg/hello_wasm.js";
+  init();
+</script>
+
+  </body>
+</html>
